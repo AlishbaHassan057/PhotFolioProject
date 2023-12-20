@@ -1,0 +1,56 @@
+.nv {
+  cursor: pointer;
+  align-self: center;
+
+}
+body {
+  background: black;
+  color: white;
+}
+.block{
+    background-color: rgba(68, 65, 65, 0.5);
+ 
+}
+.block2{
+    background-color: rgba(68, 65, 65, 0.5);
+ 
+}
+
+.nv ul{
+      list-style: none;
+}
+.main{
+    position: relative;
+    
+    
+    
+}
+.main:hover .block{
+    opacity: 1;
+    transform: translateY(-10px);
+}
+.block{
+    transition: all 0.5s;
+    position: absolute;
+    top: 5opx;
+left: 10px;
+padding: 10px !important;
+padding-right: 70px !important;
+opacity: 0;
+}
+.show{
+    opacity: 1;
+}
+.main2{
+    position: relative;
+}
+.block2{
+    position: absolute;
+        transition: all 0.5s;
+    position: absolute;
+    top: 5opx;
+left: 10px;
+padding: 10px !important;
+padding-right: 70px !important;
+opacity: 0;
+}
